@@ -1,0 +1,36 @@
+:root,
+[data-bs-theme=light] {
+
+    --bs-gradient-legal: linear-gradient(180deg, rgb(0, 0, 0), rgba(30, 29, 29, 0.249));
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.btn.btn-legal{
+    background-color: #B68C5A;
+}
+/* .bg .bg-img{
+                background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(../images/banner.png);
+    background-image: url((../images/banner.png));
+    background-size:cover;
+    background-repeat: no-repeat
+    height: 100vh;
+    color: white;
+    display:flex;
+    justify-content:center;
+    align-items-center:center;
+} */
+
+.title-font{
+    font-family: EB Garamond;
+}
+.btn{
+    color: white;
+}
+.btn-footer{
+    background-color: #B68C5A;
+}
+.bg-gradient-legal {
+    background-image: var(--bs-gradient-legal) !important;
+  }
